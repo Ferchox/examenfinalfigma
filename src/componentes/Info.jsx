@@ -3,10 +3,10 @@ import "./Info.css";
 
 function Info() {
   return (
-    <>
-      <h1>{titulo}</h1>
-      <p>{descripcion}</p>
-    </>
+    <div className="container-info">
+      <h1>Flexiones</h1>
+      <p>Descripcion de flexiones</p>
+    </div>
   );
 }
 
